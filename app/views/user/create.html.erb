@@ -1,0 +1,31 @@
+<h1>Create a new User</h1>
+
+<%= form_for :user do |f| %>
+    <p>
+      <%= f.label :identity %><br>
+      <%= f.text_field :identity %>
+    </p>
+
+    <p>
+      <%= f.label :salt_masterkey %><br>
+      <%= f.text_field :salt_masterkey %>
+    </p>
+
+    <p>
+      <%= f.label :pubkey_user %><br>
+      <%= f.text_field :pubkey_user %>
+    </p>
+
+    <p>
+      <%= f.label :pubkey_user_enc %><br>
+      <%= f.text_field :pubkey_user_enc %>
+    </p>
+
+    <p>
+      <%= button_to "Create", { action: "create" }, remote: true, form: { "data-type" => "json" } %>
+        # => "<form method="create" action="/images/create" class="button_to" data-remote="true" data-type="json">
+        #      <input value="Create" type="submit" />
+        #      <input name="identity" type="hidden" value=:identity>
+        #    </form>"
+    </p>
+<% end %>
