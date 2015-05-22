@@ -1,28 +1,9 @@
 == README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+So, hier das Repository mit dem Client. Das ganze ist eine simple Weboberläche.
+Mit Hilfe von Formen werden die Eingabeparameter eingegeben und dann nach Druck eines Knopfes an den Server geschickt.
+Ich hoffe ihr könnt damit was anfangen, es ist noch nicht vollendet (An dieser Stelle nochmal sorry :S), aber es zeigt die grundlegenden Funktionen.
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
-
-Please feel free to use a different markup language if you do not plan to run
+Der Link erklärt gut, wie man json in ruby on rails einbindet.
+https://www.socialtext.net/open/very_simple_rest_in_ruby_part_3_post_to_create_a_new_workspace
 <tt>rake doc:app</tt>.
